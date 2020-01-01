@@ -370,6 +370,14 @@ profile-img {
     color: #60c7e4;
 }
 
+.resume{
+    font-size: 2rem;
+        transition: color 650ms;
+}
+
+.resume:hover{
+    color: #60c7e4;
+}
 /*end of about*/
 
 
@@ -549,12 +557,10 @@ profile-img {
 
 .portfolio-description .graphicdesign:hover {
     color: #4fd6f5;
-    transition: color 650ms;
 }
 
 .portfolio-description .cad:hover {
     color: #e5674e;
-    transition: color 650ms;
 }
 
 /*end of portfolio*/

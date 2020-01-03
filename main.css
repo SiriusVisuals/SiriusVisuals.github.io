@@ -768,7 +768,7 @@ input[type="submit"]:hover {
 
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen (max-width: 900px) and (min-width: 700px) {
     body {
 
         background: url("images/sitebg2.png") no-repeat center fixed;

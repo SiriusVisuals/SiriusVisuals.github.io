@@ -378,6 +378,7 @@ profile-img {
 .resume:hover{
     color: #60c7e4;
 }
+
 /*end of about*/
 
 
@@ -557,10 +558,12 @@ profile-img {
 
 .portfolio-description .graphicdesign:hover {
     color: #4fd6f5;
+
 }
 
 .portfolio-description .cad:hover {
     color: #e5674e;
+
 }
 
 /*end of portfolio*/
@@ -768,7 +771,7 @@ input[type="submit"]:hover {
 
 /* media queries */
 
-@media screen (max-width: 900px) and (min-width: 700px) {
+@media screen and (max-width: 900px) and (min-width: 700px)  {
     body {
 
         background: url("images/sitebg2.png") no-repeat center fixed;
@@ -857,10 +860,17 @@ input[type="submit"]:hover {
 
 }
 
-@media screen and (max-width 600px) {
+@media screen and (max-width: 659px) and (min-width: 500px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
+
+    }
+    
+     body {
+
+        background: url("images/sitebg2.png") no-repeat center fixed;
+        background-size: cover;
 
     }
 
@@ -882,6 +892,7 @@ input[type="submit"]:hover {
 
     .profile-img {
         margin: 0 0 7rem 0;
+        width: 20rem;
     }
 
     .portfolio-item {
@@ -899,12 +910,14 @@ input[type="submit"]:hover {
     }
 
     .timeline p {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .timeline .date::before {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+        
     }
+    
 
     form {
         width: 100%;

@@ -860,7 +860,7 @@ input[type="submit"]:hover {
 
 }
 
-@media screen and (max-width: 659px) and (min-width: 100px) {
+@media screen and (max-width: 659px) and (min-width: 500px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
@@ -942,6 +942,129 @@ input[type="submit"]:hover {
 
     .skill h1 {
         font-size: 2.5rem;
+    }
+
+    .programs {
+        padding: .2rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+    .menu-toggler {
+        top: 2rem;
+        right: 2rem;
+
+    }
+    
+     body {
+
+        background: url("images/sitebg2.png") no-repeat center fixed;
+        background-size: cover;
+
+    }
+
+    .landing-text h1 {
+        font-size: 5rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 3.5rem;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+    
+    .about h1{
+        font-size: 6rem;
+    }
+    
+    .about h6{
+        font-size: 2rem;
+    }
+    
+    .about .resume{
+        font-size: 1.3rem;
+    }
+    
+    .about i{
+        font-size: 3.3rem;
+    }
+    .about p{
+        font-size: 1.3rem;
+    }
+
+    .profile-img {
+        margin: 0 0 7rem 0;
+        width: 20rem;
+    }
+
+    .portfolio-item {
+        flex-direction: column;
+    }
+
+    .portfolio-img {
+        margin: 0 0 2rem 0;
+        order: 1;
+    }
+    
+    .portfolio p{
+        font-size: 1.7rem;
+    }
+    
+    .portfolio h1{
+        font-size: 2.5rem;
+    }
+
+    .portfolio-description {
+        margin: 0;
+        order: 2;
+    }
+    
+    .timeline{
+       width: 40vh;
+    }
+
+    .timeline p {
+        font-size: 1.3rem;
+        width: 10vh;
+        
+    }
+
+    .timeline .date::before {
+        font-size: 1rem;
+        
+    }
+    
+
+    form {
+        width: 100%;
+    }
+
+    .up {
+        right: 2rem;
+    }
+
+    .skill li {
+        font-size: 1.5rem;
+    }
+
+    .skill p {
+        font-size: 1.2rem;
+    }
+
+    .skill h6 {
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .skill h1 {
+        font-size: 2rem;
     }
 
     .programs {

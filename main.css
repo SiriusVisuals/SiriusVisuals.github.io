@@ -580,10 +580,11 @@ profile-img {
     background-color: rgba(0, 0, 0, 0.05);
     margin: 0 auto;
     position: relative;
-    padding: 5rem;
+    padding: 2rem;
     list-style: none;
     text-align: left;
-    width: 70%;
+    width:  75%;
+    margin-left: 10vh;
 }
 
 
@@ -629,7 +630,7 @@ profile-img {
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -21rem;
+    left: -18rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
@@ -640,7 +641,7 @@ profile-img {
     content: '';
     box-shadow: 0 0 0 4px #60c7e4;
     border-radius: 100%;
-    left: -8rem;
+    left: -5rem;
     height: 1.5rem;
     width: 1.5rem;
     background-color: #262626;
@@ -794,6 +795,11 @@ input[type="submit"]:hover {
     li {
         margin: 2rem 0;
     }
+    
+     .profile-img {
+        margin: 0 0 7rem 0;
+        width: 24rem;
+    }
 
     .nav-link {
         font-size: 4.5rem;
@@ -830,12 +836,12 @@ input[type="submit"]:hover {
     }
 
     .timeline .date::before {
-        left: -20rem;
+        left: -16rem;
     }
 
 
     .timeline .date::after {
-        left: -5.9rem;
+        left: -3rem;
     }
 
 
@@ -860,7 +866,7 @@ input[type="submit"]:hover {
 
 }
 
-@media screen and (max-width: 659px) and (min-width: 500px) {
+@media screen and (max-width: 699px) and (min-width: 500px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
@@ -907,6 +913,7 @@ input[type="submit"]:hover {
     .portfolio-description {
         margin: 0;
         order: 2;
+        width: 90%;
     }
 
     .timeline p {
@@ -918,6 +925,7 @@ input[type="submit"]:hover {
         
     }
     
+   
 
     form {
         width: 100%;
@@ -1026,14 +1034,14 @@ input[type="submit"]:hover {
         order: 2;
     }
     
-    .timeline{
-       width: 40vh;
+
+    .experience{
+     
+        
     }
 
     .timeline p {
         font-size: 1.3rem;
-        width: 10vh;
-        
     }
 
     .timeline .date::before {

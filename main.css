@@ -860,7 +860,7 @@ input[type="submit"]:hover {
 
 }
 
-@media screen and (max-width: 659px) and (min-width: 500px) {
+@media screen and (max-width: 659px) and (min-width: 100px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;

@@ -1197,14 +1197,22 @@ input[type="submit"]:hover {
 
     }
 
-    .nav-list {
+     .nav-list {
         flex-direction: column;
     }
 
-    .nav li {
+    .nav-list li {
         margin: 2rem 0;
     }
 
+    .about-details .nav-list {
+        flex-direction: initial;
+    }
+
+    .about-details li {
+        margin: 0 2rem;
+
+    }
 
     body {
 

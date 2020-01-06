@@ -712,9 +712,12 @@ input[type="submit"]:hover {
     text-align: center;
     background-color: #31859a;
     padding: 2rem 0;
-    position: relative;
+    bottom: 0;
+    left: 0;
+    position: fixed;
 
 }
+
 
 .up {
     position: absolute;
@@ -742,6 +745,10 @@ input[type="submit"]:hover {
 
 }
 
+video{
+    width: 500px;
+
+}
 
 
 /*end footer*/

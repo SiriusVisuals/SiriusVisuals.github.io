@@ -718,7 +718,6 @@ input[type="submit"]:hover {
 
 }
 
-
 .up {
     position: absolute;
     width: 5rem;
@@ -745,10 +744,15 @@ input[type="submit"]:hover {
 
 }
 
+
+/* programming page */
 video{
     width: 500px;
 
 }
+
+
+/* end of programming page*/
 
 
 /*end footer*/
@@ -926,7 +930,7 @@ video{
 
     }
 
-     .nav-list {
+    .nav-list {
         flex-direction: column;
     }
 
@@ -1197,14 +1201,14 @@ video{
 
 
 
-@media screen and (max-width: 370px) and (min-width: 0px){
+@media screen and (max-width: 370px) and (min-width: 0px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
 
     }
 
-     .nav-list {
+    .nav-list {
         flex-direction: column;
     }
 

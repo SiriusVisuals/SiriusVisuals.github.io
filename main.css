@@ -280,7 +280,7 @@ li {
 .landing-text h1 {
     font-size: 20rem;
     font-family: 'Play', sans-serif;
-    background: linear-gradient(to top, #46aac3, #0abda0);
+    background: linear-gradient(to top, #32f3d4, #0abda0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -359,15 +359,15 @@ profile-img {
 
 
 .fa-twitter-square:hover {
-    color: #60c7e4;
+    color: #0abda0;
 }
 
 .fa-behance-square:hover {
-    color: #60c7e4;
+    color: #0abda0;
 }
 
 .fa-linkedin:hover {
-    color: #60c7e4;
+    color: #0abda0;
 }
 
 .resume {
@@ -376,7 +376,7 @@ profile-img {
 }
 
 .resume:hover {
-    color: #60c7e4;
+    color: #0abda0;
 }
 
 /*end of about*/
@@ -639,7 +639,7 @@ profile-img {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #60c7e4;
+    box-shadow: 0 0 0 4px #0abda0;
     border-radius: 100%;
     left: -5rem;
     height: 1.5rem;
@@ -694,7 +694,7 @@ textarea {
 
 input[type="submit"] {
     width: initial;
-    background-color: #44b0cc;
+    background-color: #0abda0;
     color: aliceblue;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -710,7 +710,7 @@ input[type="submit"]:hover {
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: #31859a;
+    background-color: #0abda0;
     padding: 2rem 0;
     bottom: 0;
     left: 0;

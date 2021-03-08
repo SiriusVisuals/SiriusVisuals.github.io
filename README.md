@@ -1,4 +1,4 @@
 # SiriusVisuals.github.io
 This is my portfolio which contains all my CAD work, Graphic Design work, and Programming work.
 
-[SiriusVisuals]: https://SiriusVisuals.github.io
+[SiriusVisuals]: siriusvisuals.github.io
